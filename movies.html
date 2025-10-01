@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Top Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Top Movies</a></li>
+                <li><a href="genres.html">By Genre</a></li>
+                <li><a href="blog.html">Mini Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>My Top Movies</h1>
+    </header>
+    
+    <main class="container">
+        <article>
+            <header><h2>Top 5 Movies</h2></header>
+            <section>
+                <ol id="movieList">
+                    <li><span class="title">Inception</span> — mind-bending sci-fi</li>
+                    <li><span class="title">The Shawshank Redemption</span> — enduring drama</li>
+                    <li><span class="title">Spirited Away</span> — beautiful animation</li>
+                    <li><span class="title">The Matrix</span> — cyber-action classic</li>
+                    <li><span class="title">Parasite</span> — dark social satire</li>
+                </ol>
+                
+                <h3>Movie Details</h3>
+                <table>
+                    <caption>Movie quick facts</caption>
+                    <thead>
+                        <tr><th>Title</th><th>Year</th><th>Genre</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Inception</td><td>2010</td><td>Sci-fi</td></tr>
+                        <tr><td>Shawshank</td><td>1994</td><td>Drama</td></tr>
+                        <tr><td>Spirited Away</td><td>2001</td><td>Animation</td></tr>
+                    </tbody>
+                </table>
+                
+                
+                <button id="toggleListBtn">Show/Hide Extra Info</button>
+            </section>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 — My Top Movies</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* 1) Global page styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    background: #f7f7f7;
+    color: #222;
+  }
+  
+  /* 2) Header / nav styles (site nav uses repeated styling) */
+  .site-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+    margin: 0;
+  }
+  .site-nav a {
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 6px;
+  }
+  .site-nav a:hover {
+    background: rgba(0,0,0,0.06);
+  }
+  
+  /* 3) Container for page content */
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 12px;
+  }
+  
+  /* 4) Footer */
+  footer {
+    text-align: center;
+    padding: 12px;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* 5) A repeating utility class and extra rules */
+  .highlight {
+    background: linear-gradient(90deg, rgba(255,230,200,0.6), transparent);
+    padding: 6px;
+    border-radius: 4px;
+  }
+  .hidden { display: none; }
+  
+  /* 6) Table styling */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 12px 0;
+  }
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* 7) Link pseudo-class example */
+  a:visited { color: purple; }
+  
+  /* 8) Small layout utility */
+  header { padding: 12px; background: #fff; border-bottom: 1px solid #e6e6e6; }
+  header h1 { margin: 8px 0; font-size: 1.6rem; }
+  
+  /* 9) Button style */
+  button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #888;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  /* 10) Title span inside lists */
+  .title { font-weight: 700; }
+  
+  /* 11) Make form inputs readable */
+  input, textarea { width: 100%; padding: 8px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px; }
+  
+  /* 12) Dark-theme (toggled by JS adding .dark to body) */
+  body.dark {
+    background: #111;
+    color: #e6e6e6;
+  }
+  body.dark header { background: #0f0f0f; border-bottom-color: #333; }
+  body.dark table th, body.dark table td { border-color: #444; }
+
+  img {
+    width: 400px;
+    border: black solid;
+    border-width: 3px;
+    border-radius: 6px;
+  }
+  

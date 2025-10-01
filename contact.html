@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Top Movies</a></li>
+                <li><a href="genres.html">By Genre</a></li>
+                <li><a href="blog.html">Mini Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact</h1>
+    </header>
+    <main class="container">
+        <div>
+            <form id="contactForm" onsubmit="return false;">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Your name">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" placeholder="Short message"></textarea>
+                
+                <button id="sendBtn">Send</button>
+            </form>
+            
+            <p id="formStatus" class="hidden">Message sent (demo only).</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 — My Top Movies</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
